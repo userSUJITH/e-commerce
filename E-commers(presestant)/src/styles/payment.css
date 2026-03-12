@@ -1,0 +1,91 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar{
+  background-color: #1e1e2f;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.navbar .logo{
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffcc00;
+}
+
+.navbar .nav-links{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.navbar a:hover{
+  color: #ffcc00;
+}
+
+.navbar button{
+  padding: 6px 12px;
+  background-color: #ff4d4d;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.navbar button:hover{
+  background-color: #cc0000;
+}
+
+/* ================= PAYMENT ================= */
+
+.payment-container {
+  width: 400px;
+  margin: 60px auto;
+  padding: 25px;
+  background: #ffffff;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.payment-container h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.payment-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.payment-container button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.payment-container button:hover {
+  background: #0056b3;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ZyppKart - Cart</title>
+  <link rel="stylesheet" href="/src/styles/cart.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">ZyppKart</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="cart.html">Cart 🛒 (<span id="cart-count">0</span>)</a>
+    </div>
+  </nav>
+
+  <h1 class="cart-title">Your Shopping Cart</h1>
+
+  <div id="cart-container"></div>
+
+  <div class="summary-box" id="summary-box">
+      <h2>Total: ₹ <span id="grand-total">0</span></h2>
+   <button onclick="checkout()">Proceed to Payment</button>
+  </div>
+
+  <script src="/src/product.js"></script>
+</body>
+</html>

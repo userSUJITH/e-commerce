@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ZyppKart</title>
+  <link rel="stylesheet" href="/src/styles/Reg-Styles.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">ZyppKart</div>
+
+    <input type="text" id="search" placeholder="Search products...">
+
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="cart.html">Cart 🛒 (<span id="cart-count">0</span>)</a>
+      <button id="logout-btn">Logout</button>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <span id="welcome"></span>
+    <h1 >Welcome to ZyppKart 🛍️</h1>
+    <p>Your one-stop shopping destination</p>
+  </section>
+
+  <!-- PRODUCT CONTAINER -->
+  <div id="products"></div>
+
+  <script src="/src/product.js"></script>
+</body>
+</html>

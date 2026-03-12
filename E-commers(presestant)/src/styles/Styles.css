@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color:#e7131300;
+}
+.log-cont{
+      background:url("https://www.bing.com/th/id/OGC.02771a21386a374dd9b70126f13d6483?o=7&pid=1.7&rm=3&rurl=https%3a%2f%2fwww.zuplic.com%2fwp-content%2fuploads%2f2018%2f07%2feCommerce-Animated-GIF.gif&ehk=GPx75XQJniyHiphIg3yJguBcoRgP1LEtpdIZxvnQkPw%3d");
+    height:100vh;
+    background-repeat:no-repeat;
+    background-position:inherit;
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding :20px
+}
+.log-child{
+    background-color: #ffffffc1;
+    border:2px solid #E2E8F0;
+   width:100%;
+   max-width: 420px;
+   padding:40px;
+   border-radius:20px;
+   box-shadow:rgb(83, 82, 82) 0px 0px 90px 30px;
+   transition: 0.3s ease-in-out;
+}
+.log-child:hover{
+   box-shadow:rgb(73, 72, 72) 0px 0px 100px 35px;
+}
+.log-child input{
+    padding:10px ;
+    margin-bottom: 30px;
+    width:100%;
+    margin-left: -10px;
+    border-radius:8px;
+    transition:0.3s ease-in-out;
+    
+}
+.log-child input:focus{
+   outline:none;
+    border: 2px solid rgb(255, 166, 0);
+    padding:13px;
+}
+.log-child label{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.log-child button{
+    width:100%;
+    padding: 10px;
+    border:2px solid;
+     font-family:'Poppins';
+     font-weight: bolder;
+     font-size:1.5rem;
+    background-color:rgba(247, 170, 28, 0.627);
+    border-radius:8px;
+        transition:0.2s ease-in-out;
+}
+.log-child button:hover{
+    font-size: 1.6rem;;
+   background-color: orange;
+}
+.log-child h1{
+    justify-self: center;
+    margin-bottom: 13px;
+}
+
+.profile-wrapper {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.log-box {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    display: none;
+    padding: 10px;
+}
+
+/* Show on hover */
+.profile-wrapper:hover .log-box {
+    display: block;
+}
